@@ -1,11 +1,11 @@
 # timer-tomat
 Timer tomat untuk pomodoro
 
-terdapat 3 timer
-25 menit (1 sesi)
-5 menit (istirahat)
-15 menit (istirahat panjang setelah 5 sesi)
+Terdapat 3 timer : </br>
+- 25 menit (1 sesi) </br>
+- 5 menit (istirahat) </br>
+- 15 menit (istirahat panjang setelah 5 sesi)
 
-fitur tambahan : 
-to-do list
-track to-do list per sesi
+Fitur tambahan :
+- to-do list </br>
+- track to-do list per sesi
