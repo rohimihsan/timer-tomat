@@ -35,8 +35,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context){
     return new Scaffold(
-      body: new Center(child: new Image.asset('images/timer_tomat.png'),
-      ),
-    );
+        body: new Image.asset('images/timer_tomat.png',
+          fit: BoxFit.cover,
+          height: double.infinity,
+          width: double.infinity,
+          alignment: Alignment.center,     
+        ),
+      );
   }
 }
