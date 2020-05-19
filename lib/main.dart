@@ -1,13 +1,12 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:timerTomat/homeScreen.dart';
+import 'package:timerTomat/timerScreen.dart';
+import 'dart:async';
 
 void main() => runApp(
   new MaterialApp(
     home: new SplashScreen(),
     routes: <String, WidgetBuilder> {
-      '/HomeScreen' : (BuildContext context) => new HomeScreen()
+      '/TimerScreen' : (BuildContext context) => new TimerScreen()
     },
   ));
 
@@ -23,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/HomeScreen');
+    Navigator.of(context).pushReplacementNamed('/TimerScreen');
   }
 
   @override
